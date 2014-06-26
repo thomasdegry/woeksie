@@ -1,0 +1,61 @@
+.logo {
+    width: 323px; height: 75px;
+    background-image: url(../img/logo.png);
+    background-position: center center;
+    background-size: 100%;
+    margin: 70px auto 0 auto;
+    @include hide-text();
+}
+
+p {
+    font-family: 'National';
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.4em;
+
+    mark {
+        @include appearance(none);
+        background-color: transparent;
+        font-weight: 800;
+        color: $orange;
+    }
+}
+
+section.introduction {
+    // @include transition(opacity 500ms ease-in-out, transform 500ms ease-in-out, margin-left 500ms ease-in-out);
+    @include transition(all 500ms ease-in-out);
+
+    p {
+        position: relative;
+        text-align: center;
+        width: 78.125%;
+        margin: 60px auto 0 auto;
+        padding: 50px 0;
+
+        &:before {
+            position: absolute;
+            background-color: #C4C4C4;
+            width: 36px; height: 1px;
+            left: 50%; top: 0px;
+            content: '';
+            margin-left: -18px;
+        }
+
+        &:after {
+            position: absolute;
+            background-color: #C4C4C4;
+            width: 36px; height: 1px;
+            left: 50%; bottom: 0px;
+            content: '';
+            margin-left: -18px;
+        }
+    }
+
+    &.out {
+        &.out {
+            @include opacity(0);
+            @include scale(0.9, 0.9);
+            @include translate(-1000px, 0);
+        }
+    }
+}
