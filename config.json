@@ -1,0 +1,189 @@
+{
+    "categories": {
+        "music": {
+            "facebook": [
+                "Concert venue",
+                "Musician/band",
+                "Record label",
+                "Radio station",
+                "Music Store",
+                "Playlist",
+                "Concert tour",
+                "Musical genre",
+                "Producer",
+                "Musical Instrument Store"
+            ],
+            "foursquare": [
+                "5032792091d4c4b30a586d5c",
+                "4bf58dd8d48988d1e5931735"
+            ]
+        },
+        "art": {
+            "facebook": [
+                "Photographer",
+                "Museum/art gallery",
+                "Art Gallery",
+                "Comedian",
+                "Artist",
+                "Entertainer",
+                "Book store",
+                "Arts & Entertainment",
+                "Graphic Design",
+                "Museum",
+                "Art Gallery",
+                "Writer",
+                "Theatre",
+                "Comedy Club"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d1e2931735",
+                "4bf58dd8d48988d18e941735",
+                "4bf58dd8d48988d17f941735",
+                "4bf58dd8d48988d181941735",
+                "4bf58dd8d48988d1f2931735",
+                "507c8c4091d498d9fc8c67a9",
+                "52e81612bcbc57f1066b79ee",
+                "4bf58dd8d48988d114951735",
+                "52f2ab2ebcbc57f1066b8b18",
+                "4bf58dd8d48988d1f4941735",
+                "52f2ab2ebcbc57f1066b8b30"
+            ]
+        },
+        "movies": {
+            "facebook": [
+                "Movie",
+                "Movie Theatre"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d17f941735"
+            ]
+        },
+        "food": {
+            "facebook": [
+                "Food/Beverages",
+                "Coffee Shop",
+                "Food & Grocery",
+                "Restaurant/cafe",
+                "Bakery"
+            ],
+            "foursquare": [
+                "4d4b7105d754a06374d81259",
+                "4bf58dd8d48988d1f9941735",
+                "52f2ab2ebcbc57f1066b8b1c",
+                "4bf58dd8d48988d155941735",
+                "4bf58dd8d48988d110941735",
+                "4bf58dd8d48988d16c941735",
+                "4bf58dd8d48988d16e941735"
+            ]
+        },
+        "bar": {
+            "facebook": [
+                "Bar",
+                "Cafe",
+                "Pub",
+                "Restaurant/cafe",
+                "Lounge"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d1e3931735",
+                "4bf58dd8d48988d16d941735",
+                "4bf58dd8d48988d1e0931735",
+                "52e81612bcbc57f1066b79f2",
+                "52e81612bcbc57f1066b7a06",
+                "4bf58dd8d48988d116941735",
+                "4bf58dd8d48988d117941735",
+                "50327c8591d4c4b30a586d5d",
+                "4bf58dd8d48988d121941735",
+                "4bf58dd8d48988d11b941735",
+                "4bf58dd8d48988d11d941735",
+                "4bf58dd8d48988d123941735",
+                "4bf58dd8d48988d122941735",
+                "4bf58dd8d48988d155941735"
+            ]
+        },
+        "nightlife": {
+            "facebook": [
+                "Club",
+                "Night Club",
+                "Lounge"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d11e941735",
+                "4bf58dd8d48988d118941735",
+                "4bf58dd8d48988d1d8941735",
+                "4bf58dd8d48988d121941735",
+                "4bf58dd8d48988d11f941735",
+                "4bf58dd8d48988d11a941735",
+                "4bf58dd8d48988d1d6941735"
+            ]
+        },
+        "sports": {
+            "facebook": [
+                "Sports & Recreation",
+                "Sports event",
+                "Professional sports team",
+                "Outdoor Gear/Sporting Goods"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d184941735",
+                "4bf58dd8d48988d11d941735",
+                "4f4528bc4b90abdf24c9de85",
+                "4bf58dd8d48988d15e941735",
+                "52e81612bcbc57f1066b7a26",
+                "4bf58dd8d48988d175941735",
+                "4bf58dd8d48988d176941735"
+            ]
+        },
+        "nature": {
+            "facebook": [
+                "Park",
+                "Outdoor Recreation",
+                "Historical Place",
+                "Outdoor Gear/Sporting Goods"
+            ],
+            "foursquare": [
+                "4fceea171983d5d06c3e9823",
+                "4deefb944765f83613cdba6e",
+                "52e81612bcbc57f1066b79ed",
+                "4bf58dd8d48988d17b941735",
+                "4bf58dd8d48988d1e2941735",
+                "52e81612bcbc57f1066b7a23",
+                "4bf58dd8d48988d15a941735",
+                "52e81612bcbc57f1066b7a21",
+                "4bf58dd8d48988d161941735",
+                "4eb1d4dd4b900d56c88a45fd",
+                "4bf58dd8d48988d166941735",
+                "4e52d2d203646f7c19daa8ae",
+                "4bf58dd8d48988d164941735"
+            ]
+        },
+        "shopping": {
+            "facebook": [
+                "Clothing",
+                "Clothing Supply & Distribution",
+                "Clothing Store",
+                "Shopping Mall",
+                "Vintage Store",
+                "Women's Clothing Store",
+                "Men's Clothing Store",
+                "Shopping District"
+            ],
+            "foursquare": [
+                "4bf58dd8d48988d116951735",
+                "4bf58dd8d48988d127951735",
+                "52f2ab2ebcbc57f1066b8b42",
+                "4bf58dd8d48988d114951735",
+                "4eb1bdf03b7b55596b4a7491",
+                "4bf58dd8d48988d103951735",
+                "52f2ab2ebcbc57f1066b8b18",
+                "4bf58dd8d48988d10c951735",
+                "4bf58dd8d48988d1f6941735",
+                "4bf58dd8d48988d1f4941735",
+                "4bf58dd8d48988d111951735",
+                "4bf58dd8d48988d1fd941735",
+                "52f2ab2ebcbc57f1066b8b23",
+                "5032781d91d4c4b30a586d5b"
+            ]
+        }
+    }
+}
