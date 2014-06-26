@@ -1,16 +1,6 @@
 (function () {
 
-  google.maps.event.addDomListener(window, 'load', initMap);
-  function initMap() {
-    var mapOptions = {
-      center: new google.maps.LatLng(-34.397, 150.644),
-      zoom: 8
-    };
-    var map = new google.maps.Map(document.getElementById("map-canvas"),
-        mapOptions);
-  }
-
-  $('.fb-login').on('click', function (e) {
+  $('#schoolform').on('submit', function (e) {
     e.preventDefault();
     checkLoginState();
   });
@@ -78,8 +68,30 @@
           count: likesCount
         },
         type: 'POST',
+        dataType: 'JSON',
         success: function (data) {
-          console.log(data);
+          $('section').addClass('out');
+          setTimeout(function () {
+            $('.container').hide();
+            $('.fullscreen-container').fadeIn(220);
+            var mapOptions = {
+              center: new google.maps.LatLng(50.8305, 3.2645),
+              zoom: 13
+            };
+            var map = new google.maps.Map(document.getElementById("map-canvas"),
+                mapOptions);
+
+            for (var i = 0; i < data.length; i++) {
+              $('#results').append('<li><span class="address">' + data[i].address + '</span><span class="rooms">' + data[i].rooms + ' kamers</span>');
+
+              var marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(data[i].location.lat, data[i].location.long),
+                  map: map,
+                  title: data[i].address
+              });
+
+            }
+          }, 500);
         }
       });
     }

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- <div class="container">
+  <div class="container">
     <section class="introduction">
       <div class="logo">Woeksie</div>
 
@@ -16,7 +16,7 @@
     </section>
 
     <section class="schoolform">
-      <form action="#" method="POST">
+      <form action="#" method="POST" id="schoolform">
         <fieldset>
           <select>
             <option value="#">Kies een school</option>
@@ -26,13 +26,13 @@
             <option value="kulak">KU Leuven afdeling Kortrijk</option>
           </select>
 
-          <input type="submit" value="Zoek een kot" class="facebook fb-login" / >          
+          <input type="submit" value="Zoek een kot" class="facebook fb-login" / >
         </fieldset>
       </form>
     </section>
-  </div> -->
+  </div>
 
-  <div class="fullscreen-container">
+  <div class="fullscreen-container" style="display:none;">
     <div class="sidebar">
       <div class="logo"></div>
 
@@ -40,7 +40,7 @@
         <h1>Resultaten:</h1>
       </header>
 
-      <ul>
+      <ul id="results">
       </ul>
     </div>
 
