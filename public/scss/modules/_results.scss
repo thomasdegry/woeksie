@@ -21,3 +21,25 @@
 
     }
 }
+
+ul#results {
+    margin-left: 40px;
+    margin-top: 40px;
+    
+    li {
+        font-family: 'National';
+        color: #303030;
+
+        .address {
+            font-size: 1.4em;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .rooms {
+            font-size: 0.8em;
+            font-weight: 400;
+            color: #8A8A8A;
+        }
+    }
+}
