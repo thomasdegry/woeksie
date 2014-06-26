@@ -2,16 +2,16 @@
     "categories": {
         "music": {
             "facebook": [
-                "Concert venue",
-                "Musician/band",
-                "Record label",
-                "Radio station",
-                "Music Store",
-                "Playlist",
-                "Concert tour",
-                "Musical genre",
-                "Producer",
-                "Musical Instrument Store"
+                "concert venue",
+                "musician/band",
+                "record label",
+                "radio station",
+                "music Store",
+                "playlist",
+                "concert tour",
+                "musical genre",
+                "producer",
+                "musical instrument store"
             ],
             "foursquare": [
                 "5032792091d4c4b30a586d5c",
@@ -20,20 +20,20 @@
         },
         "art": {
             "facebook": [
-                "Photographer",
-                "Museum/art gallery",
-                "Art Gallery",
-                "Comedian",
-                "Artist",
-                "Entertainer",
-                "Book store",
-                "Arts & Entertainment",
-                "Graphic Design",
-                "Museum",
-                "Art Gallery",
-                "Writer",
-                "Theatre",
-                "Comedy Club"
+                "photographer",
+                "museum/art gallery",
+                "art gallery",
+                "comedian",
+                "artist",
+                "entertainer",
+                "book store",
+                "arts & entertainment",
+                "graphic design",
+                "museum",
+                "art gallery",
+                "writer",
+                "theatre",
+                "comedy club"
             ],
             "foursquare": [
                 "4bf58dd8d48988d1e2931735",
@@ -51,8 +51,8 @@
         },
         "movies": {
             "facebook": [
-                "Movie",
-                "Movie Theatre"
+                "movie",
+                "movie theatre"
             ],
             "foursquare": [
                 "4bf58dd8d48988d17f941735"
@@ -60,11 +60,11 @@
         },
         "food": {
             "facebook": [
-                "Food/Beverages",
-                "Coffee Shop",
-                "Food & Grocery",
-                "Restaurant/cafe",
-                "Bakery"
+                "food/beverages",
+                "coffee shop",
+                "food & grocery",
+                "restaurant/cafe",
+                "bakery"
             ],
             "foursquare": [
                 "4d4b7105d754a06374d81259",
@@ -78,11 +78,11 @@
         },
         "bar": {
             "facebook": [
-                "Bar",
-                "Cafe",
-                "Pub",
-                "Restaurant/cafe",
-                "Lounge"
+                "bar",
+                "cafe",
+                "pub",
+                "restaurant/cafe",
+                "lounge"
             ],
             "foursquare": [
                 "4bf58dd8d48988d1e3931735",
@@ -103,9 +103,9 @@
         },
         "nightlife": {
             "facebook": [
-                "Club",
-                "Night Club",
-                "Lounge"
+                "club",
+                "night club",
+                "lounge"
             ],
             "foursquare": [
                 "4bf58dd8d48988d11e941735",
@@ -119,10 +119,10 @@
         },
         "sports": {
             "facebook": [
-                "Sports & Recreation",
-                "Sports event",
-                "Professional sports team",
-                "Outdoor Gear/Sporting Goods"
+                "sports & recreation",
+                "sports event",
+                "professional sports team",
+                "outdoor gear/sporting goods"
             ],
             "foursquare": [
                 "4bf58dd8d48988d184941735",
@@ -136,10 +136,10 @@
         },
         "nature": {
             "facebook": [
-                "Park",
-                "Outdoor Recreation",
-                "Historical Place",
-                "Outdoor Gear/Sporting Goods"
+                "park",
+                "outdoor recreation",
+                "historical place",
+                "outdoor gear/sporting goods"
             ],
             "foursquare": [
                 "4fceea171983d5d06c3e9823",
@@ -159,14 +159,14 @@
         },
         "shopping": {
             "facebook": [
-                "Clothing",
-                "Clothing Supply & Distribution",
-                "Clothing Store",
-                "Shopping Mall",
-                "Vintage Store",
-                "Women's Clothing Store",
-                "Men's Clothing Store",
-                "Shopping District"
+                "clothing",
+                "clothing supply & distribution",
+                "clothing store",
+                "shopping mall",
+                "vintage store",
+                "women's clothing store",
+                "men's clothing store",
+                "shopping district"
             ],
             "foursquare": [
                 "4bf58dd8d48988d116951735",

@@ -83,6 +83,8 @@ function rateDorms (rawDorms, callback) {
     rateDorm(dorm, function (ratedDorm) {
       dorms.push(ratedDorm);
 
+      console.log(dorms.length, rawDorms.length);
+
       if (checkComplete()) {
         fs.writeFileSync('data/rated-dorms.json', JSON.stringify(dorms));
       }
@@ -98,7 +100,8 @@ function rateDorm (dorm, callback) {
       var raw = JSON.parse(body),
           venues = raw.response.venues,
           dormRating = {},
-          dormRatingCount = 0;
+          dormRatingCount = 0,
+          dormRatingOrder = [];
 
       venues.forEach(function (venue) {
         var categoryID = venue.categories[0].id;
@@ -108,18 +111,39 @@ function rateDorm (dorm, callback) {
 
           ratingConfig.raw.categories[category].foursquare.forEach(function (c) {
             if (c === categoryID) {
-              dormRating[category]++;
-              dormRatingCount++;
+              var plus = 1;
+
+              if (category === 'bar' || category === 'nightlife' || category === 'food') {
+                plus = .25;
+              }
+
+              dormRating[category] += plus;
+              dormRatingCount += plus;
             }
           });
         }
       });
 
       for (var rating in dormRating) {
-        dormRating[rating] = Math.round(dormRating[rating] / dormRatingCount * 10000) / 10000;
+        var r = Math.round(dormRating[rating] / dormRatingCount * 10000) / 10000,
+            sort = dormRating[rating];
+
+        if (!!dormRatingOrder[sort] && dormRatingOrder[sort] !== 'undefined') {
+          dormRatingOrder[sort] += ';' + rating;
+        } else {
+          sort = Math.round(sort);
+          dormRatingOrder[sort] = rating;
+        }
+
+        dormRating[rating] = r;
       }
 
       dorm.rating = dormRating;
+      dorm.order = dormRatingOrder.reverse().join(';').replace(/;{2,}/g, ';');
+
+      if (dorm.order.indexOf(';') === 0) {
+        dorm.order = dorm.order.substring(1);
+      }
 
       callback(dorm);
     }
