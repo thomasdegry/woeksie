@@ -1,7 +1,6 @@
 var express = require('express'),
     app = express(),
     fs = require('fs'),
-    multiparty = require('multiparty'),
     bodyParser = require('body-parser'),
     server = require('http').createServer(app);
 
@@ -11,11 +10,10 @@ server.listen(1337, function() {
 
 app.use(express.static('public'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
 
 // Routes
 app.get('/', function (req, res) {
-    console.log('wow');
     res.sendfile('public/index.html');
 });
 
