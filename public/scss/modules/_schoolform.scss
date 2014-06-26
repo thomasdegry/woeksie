@@ -1,0 +1,65 @@
+select {
+    @include appearance(none);
+    background-color: #E8E8E8;
+    width: 350px; height: 58px;
+    @include border-radius(5px);
+    @include box-shadow(#BABABA 0px 4px);
+    border: 0px solid #fff;
+    @include box-sizing(border-box);
+    margin: 0 auto;
+    display: block;
+    padding-left: 30px;
+    font-family: 'National';
+    font-weight: 300;
+    font-size: 1.4em;
+    position: relative;
+    background-image: url(../img/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: 315px 25px;
+    background-size: 15px;
+    outline: none;
+}
+
+input[type=submit] {
+    @include appearance(none);
+    border: none;
+    background-color: $green;
+    @include box-shadow(shade($green, 20) 0px 4px);
+    @include border-radius(5px);
+    color: white;
+    font-family: 'National';
+    font-weight: 400;
+    font-size: 1.4em;
+    padding: 0.8em 0.8em 0.6em 0.8em;
+    outline: none;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+
+    &:active {
+        top: 2px;
+        @include box-shadow(shade($green, 20) 0px 2px);
+    }
+
+    &.facebook {
+        background-image: url(../img/facebook.png);
+        background-repeat: no-repeat;
+        background-size: 23px;
+        background-position: 23px 17px;
+        padding-left: 2.8em;
+        padding-right: 1.1em;
+    }
+}
+
+section.schoolform {
+    @include transition(opacity 500ms ease-in-out, transform 500ms ease-in-out, left 500ms ease-in-out);
+    @include transition-delay(300ms);
+    margin-top: 60px;
+
+    &.out {
+        @include opacity(0);
+        @include scale(0.9, 0.9);
+        @include translate(-1000px, 0);
+    }
+}
