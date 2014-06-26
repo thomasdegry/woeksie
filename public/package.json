@@ -1,0 +1,12 @@
+{
+  "name": "Woeksie",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-concat": "*",
+    "gulp-rename": "*",
+    "gulp-compass": "*"
+  }
+}

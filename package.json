@@ -1,0 +1,15 @@
+{
+  "name": "allseeingeye",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "multiparty": "*",
+    "socket.io": "*",
+    "fluent-ffmpeg": "*",
+    "body-parser": "~1.4.3"
+  }
+}
