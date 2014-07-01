@@ -20,10 +20,12 @@
         <fieldset>
           <select>
             <option value="#">Kies een school</option>
-            <option value="rdr">Howest Campus RDR</option>
-            <option value="gkg">Howest Campus GKG</option>
-            <option value="vives">VIVES</option>
-            <option value="kulak">KU Leuven afdeling Kortrijk</option>
+            <optgroup label="Scholen">
+              <option value="rdr">Howest Campus RDR</option>
+              <option value="gkg">Howest Campus GKG</option>
+              <option value="vives">VIVES</option>
+              <option value="kulak">KU Leuven afdeling Kortrijk</option>
+            </optgroup>
           </select>
 
           <input type="submit" value="Zoek een kot" class="facebook fb-login" / >
@@ -35,11 +37,6 @@
   <div class="fullscreen-container" style="display:none;">
     <div class="sidebar">
       <div class="logo"></div>
-
-      <header>
-        <h1>Resultaten:</h1>
-      </header>
-
       <ul id="results">
       </ul>
     </div>

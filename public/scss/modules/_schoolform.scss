@@ -27,6 +27,7 @@ input[type=submit] {
     @include box-shadow(shade($green, 20) 0px 4px);
     @include border-radius(5px);
     color: white;
+    cursor: pointer;
     font-family: 'National';
     font-weight: 400;
     font-size: 1.4em;

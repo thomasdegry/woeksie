@@ -82,14 +82,15 @@
                 mapOptions);
 
             for (var i = 0; i < data.length; i++) {
-              $('#results').append('<li><span class="address">' + data[i].address + '</span><span class="rooms">' + data[i].rooms + ' kamers</span>');
+              if (data[i].address.indexOf('null') !== 0) {
+                $('#results').append('<li><span class="address">' + data[i].address + '</span><span class="rooms">' + data[i].rooms + ' kamers</span>');
 
-              var marker = new google.maps.Marker({
-                  position: new google.maps.LatLng(data[i].location.lat, data[i].location.long),
-                  map: map,
-                  title: data[i].address
-              });
-
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data[i].location.lat, data[i].location.long),
+                    map: map,
+                    title: data[i].address
+                });
+              }
             }
           }, 500);
         }
